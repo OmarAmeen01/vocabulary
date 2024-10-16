@@ -1769,11 +1769,12 @@ body > footer .license svg {
 .program-index main > article.projects {
     grid-column: 3 / 10;
     margin-bottom: 8em;
+    padding:1rem
 }
 
 .program-index main > article.projects ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2em;
     margin: 0;
     padding: 0;
@@ -1996,6 +1997,9 @@ body > footer .license svg {
 
     body > footer .footer-menu ul {
         display: block;
+    }
+    .program-index main > article.projects ul{
+        grid-template-columns: 1fr;
     }
 }
 
